@@ -27,7 +27,7 @@ namespace SimpleAPI.Tests
         public void GetCorrectCount()
         {
             var returnValue = _controller.Get().ToList();
-            Assert.Equal(5, returnValue.Count);
+            Assert.Equal(6, returnValue.Count);
         }
     }
 }
